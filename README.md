@@ -3,7 +3,9 @@ Programs implementing algorithms I learned about in Discrete Mathematics
 This repo is a collection of programs I made to help me better understand some of the algorithms I found intriguing.
 
 Each program developed in vim for c++14
-compile w/ `c++ -std=c++14 <program-name>`
+compile  `c++ -std=c++14 <program-name>`
+
+
 euclidean.cpp
   Given two Natural Numbers - Finds the GCD of the pair.
 discreteGame.cpp
