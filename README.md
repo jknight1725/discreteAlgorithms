@@ -7,8 +7,11 @@ compile  `c++ -std=c++14 <program-name>`
 
 
 euclidean.cpp
+
   Given two Natural Numbers - Finds the GCD of the pair.
+  
 discreteGame.cpp
+
   Suppose we have two piles of cards, each with n cards. Each player in turn chooses one pile and removes any number of cards from the pile but must remove at least one. The last player to pick up a card or cards wins the game. Prove that the second player can always win the game.
 
   Example suppose n = 3
