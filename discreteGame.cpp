@@ -39,7 +39,7 @@ int main() {
 		std::cout <<"CPU removes " << sub 
 					 << " cards from the other deck\n"; 
 		deck == 1 ? deck2 -= sub : deck1 -= sub; //same move dif deck
-		if(deck1<=0 || deck2<=0) break;
+		if(deck1<=0 && deck2<=0) break;
 		
 	}
 	std::cout << "CPU WINS\n";
