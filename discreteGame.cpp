@@ -11,7 +11,7 @@ int getDeck() {
 
 int getValue(int n) {
 	int value{0};
-	while(value == 0 || value > n) {
+	while(value <= 0 || value > n) {
 		std::cout << "How many cards to remove?\n" << "Choose between 1-" << n << std::endl;
 		std::cin >> value; 
 	}
