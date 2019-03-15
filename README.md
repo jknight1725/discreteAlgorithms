@@ -9,6 +9,7 @@ for ruby
 `ruby <program-name>`
 
 sieve.rb
+
    The Sieve of Eratosthenes is a simple, ancient algorithm for finding all prime numbers up to any given limit.
 This is a quick implementation of the sieve. It is currently very inefficient. Inputs over 2^12 will take longer than a second to calculate and display 
 
