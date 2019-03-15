@@ -5,6 +5,12 @@ This repo is a collection of programs I made to help me better understand some o
 Each program developed in vim for c++14
 compile  `c++ -std=c++14 <program-name>`
 
+for ruby
+`ruby <program-name>`
+
+sieve.rb
+   The Sieve of Eratosthenes is a simple, ancient algorithm for finding all prime numbers up to any given limit.
+This is a quick implementation of the sieve. It is currently very inefficient. Inputs over 2^12 will take longer than a second to calculate and display 
 
 euclidean.cpp
 
