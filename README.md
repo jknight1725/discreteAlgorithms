@@ -13,6 +13,10 @@ sieve.rb
    The Sieve of Eratosthenes is a simple, ancient algorithm for finding all prime numbers up to any given limit.
 This is a quick implementation of the sieve. It is currently very inefficient. Inputs over 2^12 will take longer than a second to calculate and display 
 
+primeFactors.rb
+
+   Uses a simple algorithm to compute all of the prime factors of a given  number
+
 euclidean.cpp
 
   Given two Natural Numbers - Finds the GCD of the pair.
