@@ -26,7 +26,7 @@ end
 
 summation(1,10,i: 3, v: true)
 
-
+#demo / test cases
 =begin
 puts summation 10,1
 print"\n"
@@ -36,6 +36,6 @@ summation(1,10,i: 3,v: true)
 print"\n"
 puts summation(7.3,14.7,i: 0.25, v: false)
 print"\n"
-summation(7.5,10,i: 0.5, v: true)
+summation(-7.5,10,i: 0.5, v: true)
 =end
 
