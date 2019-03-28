@@ -14,20 +14,14 @@ def summation(b,e,args={})
 
   if args[:i]==1 && args[:v]
     puts "The sum of every number from #{b} to #{e} is #{sum}\n" + verbose
-    return sum
   elsif args[:v]
     puts "The sum of every #{args[:i]} numbers from #{b} to #{e} is #{sum}\n" + verbose
-    return sum
-  else
-    return sum
   end
-
+  
+  return sum
 end
 
-summation(1,10,i: 3, v: true)
-
 #demo / test cases
-=begin
 puts summation 10,1
 print"\n"
 puts summation(1,10)
@@ -37,5 +31,4 @@ print"\n"
 puts summation(7.3,14.7,i: 0.25, v: false)
 print"\n"
 summation(-7.5,10,i: 0.5, v: true)
-=end
 
