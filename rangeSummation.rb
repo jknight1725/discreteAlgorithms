@@ -11,7 +11,6 @@ def summation(b,e,args={})
 
   #extended output if v param given 
   verbose = elements * " + " + " = #{sum}"
-
   if args[:i]==1 && args[:v]
     puts "The sum of every number from #{b} to #{e} is #{sum}\n" + verbose
   elsif args[:v]
