@@ -2,12 +2,7 @@
 #include <cmath>
 
 uint32_t euclidean(uint32_t a, uint32_t b) {
-	if (a%b == 0) {
-		return b;
-	}
-	else {
-		return euclidean(b,a%b);
-	}
+	return (a%b == 0) ? b : euclidean(b,a%b);
 }
 
 int main() {
