@@ -18,9 +18,9 @@ length of string factorial! / repetitions of each character factorial!
 
 example "mississippi"
 
-           11! (characters in mississippi)
-____________________________________________________
-4!(number of 's') 4!(number of 'i') 2!(number of 'p')
+                     11! (characters in mississippi)
+        ____________________________________________________________
+            4!(number of 's') 4!(number of 'i') 2!(number of 'p')
 
 39916800 / 1152 = 34650 different permutations
 
