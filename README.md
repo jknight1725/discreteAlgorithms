@@ -8,6 +8,22 @@ compile  `c++ -std=c++14 <program-name>`
 for ruby
 `ruby <program-name>`
 
+
+number_of_permutations.rb
+
+   given a string the program will calculate how many different permutations there are of the sequence
+formula
+
+length of string factorial! / repetitions of each character factorial!
+
+example "mississippi"
+
+           11! (characters in mississippi)
+____________________________________________________
+4!(number of 's') 4!(number of 'i') 2!(number of 'p')
+
+39916800 / 1152 = 34650 different permutations
+
 rangeSummation.rb
 
    Ruby offers amazing syntax to sum a range of numbers `(1..10).sum` ouputs 55 as expected. Furthermore you can output the sum of a range only in increments of a number e.g. `(1..10).step(2).sum` outputs 25 (1+3+5+7+9). I wanted to try and create a function that showed how the built in method might work under the hood implementing an algorithm I learned in Discrete Mathematics. The function offers flexibility in that a user can give a range in any order with the ability to specify the sum should be of every n number within the range e.g. passing the i argument to sum every other number `i: 2`
