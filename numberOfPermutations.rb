@@ -1,4 +1,4 @@
-def numberOfPermutations sequence
+def number_of_permutations(sequence)
   numerator = sequence.length
   denominator=[]
   sequence.chars.uniq.each { |c| denominator << sequence.count(c)}
@@ -10,11 +10,10 @@ def factorial(n)
   n * factorial(n - 1)
 end
 
-def calculate arr
-  numerator = factorial arr[0]
-  denominator = 1
-  arr[1].each { |x| denominator *= factorial x}
-  numerator / denominator
+def calculate(arr)
+  total = factorial arr[0]
+  arr[1].each { |x| total /= factorial x}
+  total
 end
 
-puts calculate numberOfPermutations "mississippi"
+puts calculate number_of_permutations "mississippi"
