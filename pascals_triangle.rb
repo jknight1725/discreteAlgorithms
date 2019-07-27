@@ -3,7 +3,7 @@ def pascal(row)
   return triangle if row <= 1
 
   0.upto(row - 1) do |k|
-    triangle.append(triangle[k] * (row - k) / (k + 1))
+    triangle << triangle[k] * (row - k) / (k + 1)
   end
   triangle
 end
@@ -12,4 +12,4 @@ def pascal_triangle(rows)
   1.upto(rows) { |x| puts pascal(x).to_s }
 end
 
-pascal_triangle(11)
+pascal_triangle(100)
